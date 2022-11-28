@@ -15,6 +15,7 @@ public class CardManager : MonoBehaviour
     [SerializeField] GameObject cardPrefab;
     [SerializeField] List<Card> myCards;
     [SerializeField] List<Card> otherCards;
+    [SerializeField] Transform cardSpawnPoint;
     List<Item> itemBuffer;
 
     public Item PopItem()
@@ -73,7 +74,8 @@ public class CardManager : MonoBehaviour
 
     void AddCard(bool isMine)
     {
-        var cardObject = Instantiate(cardPrefab, Vector3.zero, Utils.QI);
+        // card 스폰 시킬 위치
+        var cardObject = Instantiate(cardPrefab, cardSpawnPoint.position, Utils.QI);
         // Getcomponent로 참조 한 뒤 Setup 해서 Popitem을 한다.
         // 자기 자신인지도 알려준다.
         var card = cardObject.GetComponent<Card>();
