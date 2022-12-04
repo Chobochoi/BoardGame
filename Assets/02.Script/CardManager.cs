@@ -84,6 +84,7 @@ public class CardManager : MonoBehaviour
         (isMine ? myCards : otherCards).Add(card);
 
         SetOriginOrder(isMine);
+        CardAlignment(isMine);
     }
     
     void SetOriginOrder(bool isMine)
@@ -95,6 +96,20 @@ public class CardManager : MonoBehaviour
             var targetCard = isMine ? myCards[i] : otherCards[i];
             // Sorting Layer의 오리진오더를 채워준다. (정렬을 위함 큰 수가 맨위에 뜨게)
             targetCard?.GetComponent<Order>().SetOriginOrder(i);
+        }
+    }
+
+    void CardAlignment(bool isMine)
+    {
+        // isMine이면 내 카드 정렬 아니면 otherCards 정렬
+        var targetCards = isMine ? myCards : otherCards;
+        for (int i = 0; i < targetCards.Count; i++)
+        {
+            var targetCard = targetCards[i];
+
+            // 임시로 정해놓은 값
+            targetCard.originPRS = new PRS(Vector3.zero, Utils.QI, Vector3.one * 1.9f);
+            targetCard.MoveTransform(targetCard.originPRS, true, 0.7f);
         }
     }
 }

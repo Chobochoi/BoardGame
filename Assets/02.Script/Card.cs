@@ -8,9 +8,7 @@ public class Card : MonoBehaviour
 {
     [SerializeField] SpriteRenderer card;
     [SerializeField] SpriteRenderer charactor;
-    [SerializeField] TMP_Text nameTMP;
-    [SerializeField] TMP_Text attackTMP;
-    [SerializeField] TMP_Text healthTMP;
+    [SerializeField] TMP_Text numTMP;    
     [SerializeField] Sprite cardFront;
     [SerializeField] Sprite cardBack;
 
@@ -27,22 +25,19 @@ public class Card : MonoBehaviour
         if (this.isFront)
         {
             charactor.sprite = this.item.sprite;
-            nameTMP.text = this.item.name;
-            attackTMP.text = this.item.attack.ToString();
-            healthTMP.text = this.item.health.ToString();
+            numTMP.text = this.item.num.ToString();
         }
 
         else
         {
             card.sprite = cardBack;
-            nameTMP.text = "";
-            attackTMP.text = "";
-            healthTMP.text = "";
+            numTMP.text = "";
         }
     }
 
     public void MoveTransform(PRS prs, bool useDotween, float dotweenTime = 0)
     {
+        // dotween이 true면 dotween으로 부드럽게 움직이게 하기 transform. 해보면 여러종류가 많음 (구글 참조)
         if (useDotween)
         {
             transform.DOMove(prs.pos, dotweenTime);

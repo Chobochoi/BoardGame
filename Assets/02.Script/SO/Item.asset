@@ -12,4 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4b1ea501d53a5498d1df0bc12b8262, type: 3}
   m_Name: Item
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - num: 1
+    sprite: {fileID: 0}
+    percent: 10
+  - num: 2
+    sprite: {fileID: 0}
+    percent: 10
+  - num: 3
+    sprite: {fileID: 0}
+    percent: 10
+  - num: 4
+    sprite: {fileID: 0}
+    percent: 10
+  - num: 5
+    sprite: {fileID: 0}
+    percent: 10
+  - num: 6
+    sprite: {fileID: 0}
+    percent: 0
+  - num: 7
+    sprite: {fileID: 0}
+    percent: 0
+  - num: 8
+    sprite: {fileID: 0}
+    percent: 0
+  - num: 9
+    sprite: {fileID: 0}
+    percent: 0
+  - num: 10
+    sprite: {fileID: 0}
+    percent: 0
