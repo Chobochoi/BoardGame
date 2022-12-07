@@ -15,5 +15,11 @@ public class Deck : MonoBehaviour
     void GetCardValues()
     {
         int num = 0;
+        
+        for (int i = 0; i < cardSprites.Length; i++)
+        {
+            num = i;
+        }
+
     }
 }

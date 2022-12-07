@@ -14,32 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - num: 1
-    sprite: {fileID: 0}
+    sprite: {fileID: 1619841908, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 10
   - num: 2
-    sprite: {fileID: 0}
+    sprite: {fileID: 1777578735, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 10
   - num: 3
-    sprite: {fileID: 0}
+    sprite: {fileID: -614049406, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 10
   - num: 4
-    sprite: {fileID: 0}
+    sprite: {fileID: -2068205971, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 10
   - num: 5
-    sprite: {fileID: 0}
+    sprite: {fileID: 1098821400, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 10
   - num: 6
-    sprite: {fileID: 0}
+    sprite: {fileID: -431116740, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 0
   - num: 7
-    sprite: {fileID: 0}
+    sprite: {fileID: -203119826, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 0
   - num: 8
-    sprite: {fileID: 0}
+    sprite: {fileID: -2057408736, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 0
   - num: 9
-    sprite: {fileID: 0}
+    sprite: {fileID: -712044912, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 0
   - num: 10
-    sprite: {fileID: 0}
+    sprite: {fileID: 1779770054, guid: 428dcf91322aa504aaf482a74c378930, type: 3}
     percent: 0
