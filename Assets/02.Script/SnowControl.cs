@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class SnowControl : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float snowDamage = 20.0f;
+    public float snowForce = 200.0f;
+
+    private Rigidbody rb;
+    
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
+        rb.AddForce(transform.forward * snowForce);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

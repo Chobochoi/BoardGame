@@ -73,7 +73,7 @@ public class Movement : MonoBehaviourPunCallbacks
     // 회전 처리
     void Turn()
     {
-        // 나중에 수정필요 마우스포지션으로 함
+        // 나중에 수정필요 마우스포지션으로 함 (조이스틱으로 할 예정)
         ray = cam.ScreenPointToRay(Input.mousePosition);
 
         float enter = 0.0f;
