@@ -6,6 +6,7 @@ using System;
 using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.Networking;
+using System.Threading.Tasks;
 
 public class UniTaskTest : MonoBehaviour
 {
@@ -52,42 +53,58 @@ public class UniTaskTest : MonoBehaviour
 
     // 인터넷 이미지 가져오기
 
-    private const string Apple = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/1130px-Red_Apple.jpg";
-    public RawImage profileImg;
+    //private const string Apple = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/1130px-Red_Apple.jpg";
+    //public RawImage profileImg;
 
-    private IEnumerator CoTest(UnityAction<Texture2D> action)
-    {
-        UnityWebRequest request = UnityWebRequestTexture.GetTexture(Apple);
-        yield return request.SendWebRequest();
-
-        if (request.result is UnityWebRequest.Result.ConnectionError or UnityWebRequest.Result.ProtocolError)
-        {
-            // 에러처리를 합니다.
-            Debug.LogError(request.error);
-        }
-        else
-        {
-            Texture2D texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
-            action.Invoke(texture);
-        }
-    }
-
-    //private async UniTaskVoid TaskTest()
+    //private IEnumerator CoTest(UnityAction<Texture2D> action)
     //{
-    //    await UniTask.WaitUntil();
-    //    Debug.Log("Task 3이 되었다.");
+    //    UnityWebRequest request = UnityWebRequestTexture.GetTexture(Apple);
+    //    yield return request.SendWebRequest();
+
+    //    if (request.result is UnityWebRequest.Result.ConnectionError or UnityWebRequest.Result.ProtocolError)
+    //    {
+    //        // 에러처리를 합니다.
+    //        Debug.LogError(request.error);
+    //    }
+    //    else
+    //    {
+    //        Texture2D texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
+    //        action.Invoke(texture);
+    //    }
+    //}
+
+    //private async UniTask<Texture2D> TestUni()
+    //{
+    //    UnityWebRequest request = UnityWebRequestTexture.GetTexture(Apple);
+    //    await request.SendWebRequest();
+
+    //    if (request.result is UnityWebRequest.Result.ConnectionError or UnityWebRequest.Result.ProtocolError)
+    //    {
+    //        Debug.LogError(request.error);
+    //    }
+    //    else
+    //    {
+    //        Texture2D texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
+    //        return texture;
+    //    }
+
+    //    return null;
+    //}
+
+
+    //private async UniTaskVoid GetImage()
+    //{
+    //    Texture2D texture = await WaitGetWebTextureAsync();
+    //    profileImg.texture = texture;
+    //}
+
+    //private Task<Texture2D> WaitGetWebTextureAsync()
+    //{
+    //    throw new NotImplementedException();
     //}
 
     //private void Start()
     //{
-    //    StartCoroutine(WaitGetWebTexture(texture => 
-    //    { 
-    //        profileImg.texture = texture; 
-    //    }));
-    //}
-
-    //private string WaitGetWebTexture(Action<object> value)
-    //{
-    //    throw new NotImplementedException();
-    //}
+    //    GetImage().Forget();
+    //}    
 }
