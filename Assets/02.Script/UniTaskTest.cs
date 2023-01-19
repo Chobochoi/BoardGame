@@ -10,27 +10,27 @@ using System.Threading.Tasks;
 
 public class UniTaskTest : MonoBehaviour
 {
-    //private IEnumerator CoTest()
-    //{
-    //    yield return new WaitForSeconds(1f);
-    //    Debug.Log("Co 1초지남");
-    //}
+    private IEnumerator CoTest()
+    {
+        yield return new WaitForSeconds(1f);
+        Debug.Log("Co 1초지남");
+    }
 
-    //private async UniTaskVoid TaskTest()
-    //{
-    //    //DelayType.UnscaledDeltaTime Timescale 값이 0이 되어도 계속 진행합니다.
-    //    await UniTask.Delay(TimeSpan.FromSeconds(1f), DelayType.UnscaledDeltaTime);
-    //    Debug.Log("Task 1초지남");
-    //}
+    private async UniTaskVoid TaskTest()
+    {
+        //DelayType.UnscaledDeltaTime Timescale 값이 0이 되어도 계속 진행합니다.
+        await UniTask.Delay(TimeSpan.FromSeconds(1f), DelayType.UnscaledDeltaTime);
+        Debug.Log("Task 1초지남");
+    }
 
-    //private void Start()
-    //{
-    //    Time.timeScale = 0;
-    //    StartCoroutine(CoTest());
+    private void Start()
+    {
+        Time.timeScale = 0;
+        StartCoroutine(CoTest());
 
-    //    // Void를 사용하면 Forget을 붙이라고 문서에 나와있습니다.
-    //    TaskTest().Forget();
-    //}
+        // Void를 사용하면 Forget을 붙이라고 문서에 나와있습니다.
+        TaskTest().Forget();
+    }
 
     //public int count;
 
@@ -106,5 +106,5 @@ public class UniTaskTest : MonoBehaviour
     //private void Start()
     //{
     //    GetImage().Forget();
-    //}    
+    //}
 }
