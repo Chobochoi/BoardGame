@@ -1,0 +1,17 @@
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.csproj.AssemblyReference.cache
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.Form1.resources
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.csproj.GenerateResource.cache
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.AssemblyInfoInputs.cache
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.AssemblyInfo.cs
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.csproj.CoreCompileInputs.cache
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\bin\Debug\net6.0-windows\MP3Win.exe
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\bin\Debug\net6.0-windows\MP3Win.deps.json
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\bin\Debug\net6.0-windows\MP3Win.runtimeconfig.json
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\bin\Debug\net6.0-windows\MP3Win.dll
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\bin\Debug\net6.0-windows\MP3Win.pdb
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.dll
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\refint\MP3Win.dll
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.pdb
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\MP3Win.genruntimeconfig.cache
+C:\Users\Samwoo\Desktop\Test\MP3Win\MP3Win\obj\Debug\net6.0-windows\ref\MP3Win.dll
