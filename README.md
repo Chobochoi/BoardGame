@@ -2,6 +2,8 @@
 - 연습용도
 - 씹어먹는 C++
 - [UDP](https://www.csharpstudy.com/net/article/12)
+- [TCP](https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-1N-%ED%86%B5%EC%8B%A0)
+
 ```
 using System;
 using System.Text;
