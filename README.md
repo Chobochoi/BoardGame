@@ -1,5 +1,6 @@
 # BoardGame
 - 연습용도
+- 씹어먹는 C++
 ```
 using System;
 using System.Text;
