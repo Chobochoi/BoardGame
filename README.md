@@ -9,7 +9,7 @@
 - [Chat](https://slaner.tistory.com/173)
 - [Chat2](https://ggaebap.tistory.com/68)
 - [Chat3](https://it-jerryfamily.tistory.com/entry/Program-C-%EC%84%9C%EB%B2%84%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%B1%84%ED%8C%85-%ED%86%B5%EC%8B%A0)
-- [Chat4 ](https://unininu.tistory.com/475)
+- [Chat4](https://unininu.tistory.com/475)
 
 ```
 using System;
