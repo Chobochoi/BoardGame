@@ -7,6 +7,7 @@
 - [TEXT1](https://manniz.tistory.com/entry/CC-text-%ED%8C%8C%EC%9D%BC-%EC%9D%BD%EA%B8%B0-C-txt-%ED%8C%8C%EC%9D%BC-%EC%9D%BD%EA%B8%B0-C-text-read-C-txt-read)
 - [TEXT2](https://afsdzvcx123.tistory.com/entry/C-%EB%AC%B8%EB%B2%95-C-%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1-%EC%93%B0%EA%B8%B0-%EC%82%AD%EC%A0%9C-%EB%B0%A9%EB%B2%95)
 - [Chat](https://slaner.tistory.com/173)
+- [Chat2] (https://ggaebap.tistory.com/68)
 
 ```
 using System;
